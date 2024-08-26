@@ -86,8 +86,16 @@
                      VerticalOptions="Start"
                      HorizontalOptions="Center"
                      Margin="0,500,0,0"/>
-            <CheckBox Color="White"
-                      Margin="0,300,280,0"/>
+            <Grid Padding="0,300,280,0">
+                <BoxView Color="Transparent"
+                         BackgroundColor="Transparent"
+                         WidthRequest="30"
+                         HeightRequest="30"/>
+                <CheckBox Color="White"
+                          BackgroundColor="Transparent"
+                          VerticalOptions="Center"/>
+            </Grid>
+            
             <Label Text="I have carefully read and accept the"
                    TextColor="White"
                    Margin="80,528,0,0"
