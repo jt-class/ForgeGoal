@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ForgeGoal.Views.LoginPage"
+             Title="LoginPage"
+             BackgroundImageSource="gradient_bg.png">
+
+        <VerticalStackLayout>
+            <Grid>
+                <Label Text="Log in"
+                       FontSize="36"
+                       TextColor="White"
+                       HorizontalOptions="Center"/>
+                
+                <Entry Placeholder="Email"
+                       TextColor="White"
+                       PlaceholderColor="White"
+                       BackgroundColor="Transparent" />
+                
+                <Entry Placeholder="Password"
+                       IsPassword="True"
+                       TextColor="White"
+                       PlaceholderColor="White"
+                       BackgroundColor="Transparent" />
+                
+                <Button Text="Log in"
+                       BackgroundColor="#FFD700"
+                       TextColor="White"
+                       CornerRadius="30"
+                       WidthRequest="200" />
+            </Grid>
+        </VerticalStackLayout>
+</ContentPage>
