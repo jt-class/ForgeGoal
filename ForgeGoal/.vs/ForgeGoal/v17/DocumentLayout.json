@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\AndroidProjects\\ForgeGoal\\ForgeGoal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|d:\\androidprojects\\forgegoal\\forgegoal\\forgegoal\\views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|d:\\androidprojects\\forgegoal\\forgegoal\\forgegoal\\views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|d:\\androidprojects\\forgegoal\\forgegoal\\forgegoal\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|d:\\androidprojects\\forgegoal\\forgegoal\\forgegoal\\views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|d:\\androidprojects\\forgegoal\\forgegoal\\forgegoal\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -38,12 +38,11 @@
               "RelativeToolTip": "ForgeGoal\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-26T12:40:39.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T12:40:39.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "D:\\AndroidProjects\\ForgeGoal\\ForgeGoal\\ForgeGoal\\MauiProgram.cs",
               "RelativeDocumentMoniker": "ForgeGoal\\MauiProgram.cs",
@@ -51,31 +50,29 @@
               "RelativeToolTip": "ForgeGoal\\MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:39:44.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T12:39:44.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SignUpPage.xaml.cs",
               "DocumentMoniker": "D:\\AndroidProjects\\ForgeGoal\\ForgeGoal\\ForgeGoal\\Views\\SignUpPage.xaml.cs",
               "RelativeDocumentMoniker": "ForgeGoal\\Views\\SignUpPage.xaml.cs",
               "ToolTip": "D:\\AndroidProjects\\ForgeGoal\\ForgeGoal\\ForgeGoal\\Views\\SignUpPage.xaml.cs",
               "RelativeToolTip": "ForgeGoal\\Views\\SignUpPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:39:37.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T12:39:37.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SignUpPage.xaml",
               "DocumentMoniker": "D:\\AndroidProjects\\ForgeGoal\\ForgeGoal\\ForgeGoal\\Views\\SignUpPage.xaml",
               "RelativeDocumentMoniker": "ForgeGoal\\Views\\SignUpPage.xaml",
               "ToolTip": "D:\\AndroidProjects\\ForgeGoal\\ForgeGoal\\ForgeGoal\\Views\\SignUpPage.xaml",
               "RelativeToolTip": "ForgeGoal\\Views\\SignUpPage.xaml",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAGsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-08-26T12:38:55.063Z",
               "EditorCaption": ""
