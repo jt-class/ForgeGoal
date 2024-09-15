@@ -7,6 +7,20 @@
 
         <VerticalStackLayout>
             <Grid>
+                <Image Source="gradient_bg2" 
+                       Aspect="Fill" 
+                       HorizontalOptions="FillAndExpand"
+                       HeightRequest="780"/>
+
+                <Label FontSize="29" 
+                       Text="Welcome back!&#10;Continue forging your path to success!"
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"
+                       FontFamily="PoppinsRegular"
+                       Padding="0,30,0,10"
+                       LineHeight="1.2"/>
+                
                 <Label Text="Log in"
                        FontSize="36"
                        TextColor="White"
@@ -28,6 +42,12 @@
                        TextColor="White"
                        CornerRadius="30"
                        WidthRequest="200" />
-            </Grid>
+
+                <Button Text="Login with Google"
+                       BackgroundColor="White"
+                       TextColor="Black"
+                       ImageSource="google_circle_icon.png"
+                       />
+        </Grid>
         </VerticalStackLayout>
 </ContentPage>
