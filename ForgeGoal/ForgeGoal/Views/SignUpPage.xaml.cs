@@ -1,4 +1,4 @@
-namespace ForgeGoal;
+namespace ForgeGoal.Views;
 
 public partial class SignUpPage : ContentPage
 {
@@ -10,8 +10,9 @@ public partial class SignUpPage : ContentPage
 	{
 		//TODO: ADD NAVIGATION TO SEND TO TERMS AND SERVICE VIEW
 	}
-	private void OnLoginTapped(object sender, EventArgs e)
+	private async void OnLoginTapped(object sender, EventArgs e)
 	{
-		//TODO: ADD NAVIGATION TO SEND TO LOGIN VIEW
+		await Shell.Current.GoToAsync("LoginPage");
+
 	}
 }
