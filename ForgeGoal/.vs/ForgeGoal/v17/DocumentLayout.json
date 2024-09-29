@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|c:\\users\\ahhor\\desktop\\jtfg\\forgegoal\\forgegoal\\forgegoal\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|c:\\users\\ahhor\\desktop\\jtfg\\forgegoal\\forgegoal\\forgegoal\\views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -19,16 +15,12 @@
       "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|c:\\users\\ahhor\\desktop\\jtfg\\forgegoal\\forgegoal\\forgegoal\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|c:\\users\\ahhor\\desktop\\jtfg\\forgegoal\\forgegoal\\forgegoal\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|c:\\users\\ahhor\\desktop\\jtfg\\forgegoal\\forgegoal\\forgegoal\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|c:\\users\\ahhor\\desktop\\jtfg\\forgegoal\\forgegoal\\forgegoal\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|c:\\users\\ahhor\\desktop\\jtfg\\forgegoal\\forgegoal\\forgegoal\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,6 +29,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|c:\\users\\ahhor\\desktop\\jtfg\\forgegoal\\forgegoal\\forgegoal\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|c:\\users\\ahhor\\desktop\\jtfg\\forgegoal\\forgegoal\\forgegoal\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|c:\\users\\ahhor\\desktop\\jtfg\\forgegoal\\forgegoal\\forgegoal\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "ForgeGoal\\Views\\HomePage.xaml",
               "ToolTip": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\Views\\HomePage.xaml",
               "RelativeToolTip": "ForgeGoal\\Views\\HomePage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-09-22T09:19:49.329Z",
               "EditorCaption": ""
@@ -64,6 +64,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SignUpPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\Views\\SignUpPage.xaml",
+              "RelativeDocumentMoniker": "ForgeGoal\\Views\\SignUpPage.xaml",
+              "ToolTip": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\Views\\SignUpPage.xaml",
+              "RelativeToolTip": "ForgeGoal\\Views\\SignUpPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-26T12:38:55.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\App.xaml",
               "RelativeDocumentMoniker": "ForgeGoal\\App.xaml",
@@ -76,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\Views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "ForgeGoal\\Views\\LoginPage.xaml.cs",
@@ -89,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "ForgeGoal\\AppShell.xaml.cs",
@@ -102,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\AppShell.xaml",
               "RelativeDocumentMoniker": "ForgeGoal\\AppShell.xaml",
@@ -115,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\MauiProgram.cs",
               "RelativeDocumentMoniker": "ForgeGoal\\MauiProgram.cs",
@@ -128,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SignUpPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\Views\\SignUpPage.xaml.cs",
               "RelativeDocumentMoniker": "ForgeGoal\\Views\\SignUpPage.xaml.cs",
@@ -141,20 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SignUpPage.xaml",
-              "DocumentMoniker": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\Views\\SignUpPage.xaml",
-              "RelativeDocumentMoniker": "ForgeGoal\\Views\\SignUpPage.xaml",
-              "ToolTip": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\Views\\SignUpPage.xaml",
-              "RelativeToolTip": "ForgeGoal\\Views\\SignUpPage.xaml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-26T12:38:55.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\Views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "ForgeGoal\\Views\\LoginPage.xaml",

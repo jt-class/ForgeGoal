@@ -3,10 +3,120 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ForgeGoal.Views.HomePage"
              Title="HomePage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Home Page"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout>
+                <Label 
+                    Text="Your Boards"
+                    FontSize="30"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center" 
+                    Margin="10,20"/>
+
+                <!-- PROJECT 1 -->
+                <Frame 
+                    x:Name="Project1" 
+                    BackgroundColor="#FC6A6F"
+                    CornerRadius="10"
+                    Padding="10"
+                    Margin="10">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnProject1Tapped"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- PROJECT 2 -->
+                <Frame 
+                    x:Name="Project2"
+                    BackgroundColor="#FC6A6F"
+                    CornerRadius="10"
+                    Padding="10"
+                    Margin="10">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnProject2Tapped"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- PROJECT 3 -->
+                <Frame 
+                    x:Name="Project3"
+                    BackgroundColor="#FC6A6F"
+                    CornerRadius="10"
+                    Padding="10"
+                    Margin="10">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnProject3Tapped"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- PROJECT 4 -->
+                <Frame 
+                    x:Name="Project4"
+                    BackgroundColor="#FC6A6F"
+                    CornerRadius="10"
+                    Padding="10"
+                    Margin="10">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnProject4Tapped"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Navigation Bar -->
+        <Grid
+            Grid.Row="1"
+            Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Frame
+                Grid.Column="0"
+                Margin="5"
+                BackgroundColor="#B21541"
+                Padding="10">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnHomeTapped"/>
+                </Frame.GestureRecognizers>
+                <Label
+                    Text="Home"
+                    HorizontalOptions="Center"/>
+            </Frame>
+
+            <Frame
+                Grid.Column="1"
+                Margin="5"
+                BackgroundColor="#B21541"
+                Padding="10">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnCalendarTapped"/>
+                </Frame.GestureRecognizers>
+                <Label
+                    Text="Calendar"
+                    HorizontalOptions="Center"/>
+            </Frame>
+
+            <Frame
+                Grid.Column="2"
+                Margin="5"
+                BackgroundColor="#B21541"
+                Padding="10">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnUpdatesTapped"/>
+                </Frame.GestureRecognizers>
+                <Label
+                    Text="Updates"
+                    HorizontalOptions="Center"/>
+            </Frame>
+        </Grid>
+    </Grid>
+
 </ContentPage>
