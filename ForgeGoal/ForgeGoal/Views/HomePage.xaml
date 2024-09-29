@@ -17,54 +17,6 @@
                     FontAttributes="Bold"
                     HorizontalOptions="Center" 
                     Margin="10,20"/>
-
-                <!-- PROJECT 1 -->
-                <Frame 
-                    x:Name="Project1" 
-                    BackgroundColor="#FC6A6F"
-                    CornerRadius="10"
-                    Padding="10"
-                    Margin="10">
-                    <Frame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnProject1Tapped"/>
-                    </Frame.GestureRecognizers>
-                </Frame>
-
-                <!-- PROJECT 2 -->
-                <Frame 
-                    x:Name="Project2"
-                    BackgroundColor="#FC6A6F"
-                    CornerRadius="10"
-                    Padding="10"
-                    Margin="10">
-                    <Frame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnProject2Tapped"/>
-                    </Frame.GestureRecognizers>
-                </Frame>
-
-                <!-- PROJECT 3 -->
-                <Frame 
-                    x:Name="Project3"
-                    BackgroundColor="#FC6A6F"
-                    CornerRadius="10"
-                    Padding="10"
-                    Margin="10">
-                    <Frame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnProject3Tapped"/>
-                    </Frame.GestureRecognizers>
-                </Frame>
-
-                <!-- PROJECT 4 -->
-                <Frame 
-                    x:Name="Project4"
-                    BackgroundColor="#FC6A6F"
-                    CornerRadius="10"
-                    Padding="10"
-                    Margin="10">
-                    <Frame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnProject4Tapped"/>
-                    </Frame.GestureRecognizers>
-                </Frame>
             </VerticalStackLayout>
         </ScrollView>
 
