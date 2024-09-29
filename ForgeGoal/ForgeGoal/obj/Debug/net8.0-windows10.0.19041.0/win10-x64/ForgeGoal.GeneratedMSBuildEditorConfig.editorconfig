@@ -48,6 +48,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = ForgeGoal.Views.LoginPage.
 build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
 
+[C:/Users/ahhor/Desktop/JtFG/ForgeGoal/ForgeGoal/ForgeGoal/Views/Settings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ForgeGoal.Views.Settings.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Settings.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Settings.xaml
+
 [C:/Users/ahhor/Desktop/JtFG/ForgeGoal/ForgeGoal/ForgeGoal/Views/SignUpPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ForgeGoal.Views.SignUpPage.xaml

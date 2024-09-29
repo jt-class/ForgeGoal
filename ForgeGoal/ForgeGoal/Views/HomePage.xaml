@@ -19,7 +19,7 @@
                     Margin="10,20"/>
             </VerticalStackLayout>
         </ScrollView>
-
+        
         <!-- Navigation Bar -->
         <Grid
             Grid.Row="1"

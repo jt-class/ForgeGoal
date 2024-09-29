@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ForgeGoal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d71b2516fc12b83ed4e1fa1cf64316bef8bb079a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8c9509b991abc58e3b994092a81a5eb048b7ce1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ForgeGoal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ForgeGoal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
