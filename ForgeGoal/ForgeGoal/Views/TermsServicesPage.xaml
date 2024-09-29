@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ForgeGoal.Views.TermsServicesPage"
+             Title="TermsServicesPage">
+    <VerticalStackLayout>
+        <Grid>
+            <Image Source="gradient_bg2" 
+                   Aspect="Fill" 
+                   HorizontalOptions="FillAndExpand"
+                   HeightRequest="780"/>
+            <Label FontSize="29" 
+                   Text="Terms of Services"
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   FontFamily="PoppinsRegular"
+                   Padding="0,30,0,10"
+                   LineHeight="1.2"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
