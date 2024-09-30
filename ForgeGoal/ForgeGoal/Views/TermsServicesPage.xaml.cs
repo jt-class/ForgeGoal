@@ -6,4 +6,8 @@ public partial class TermsServicesPage : ContentPage
 	{
 		InitializeComponent();
 	}
+	private async void OnAgreeClicked(object sender, EventArgs e)
+	{
+		await Shell.Current.GoToAsync("SignUpPage");
+    }
 }

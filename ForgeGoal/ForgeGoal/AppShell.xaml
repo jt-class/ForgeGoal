@@ -14,4 +14,7 @@
     <ShellContent
         Title="Login Page"
         ContentTemplate="{DataTemplate views:LoginPage}"/>
+    <ShellContent
+        Title="Terms of Services Page"
+        ContentTemplate="{DataTemplate views:TermsServicesPage}"/>
 </Shell>

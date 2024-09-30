@@ -9,14 +9,33 @@
                    Aspect="Fill" 
                    HorizontalOptions="FillAndExpand"
                    HeightRequest="780"/>
-            <Label FontSize="29" 
+            <Label FontSize="36" 
                    Text="Terms of Services"
                    TextColor="White"
                    HorizontalOptions="Center"
                    HorizontalTextAlignment="Center"
-                   FontFamily="PoppinsRegular"
+                   FontFamily="PoppinsSemiBold"
                    Padding="0,30,0,10"
                    LineHeight="1.2"/>
+            <ScrollView>
+                
+            </ScrollView>
+            <Label FontSize="14"
+                   FontFamily="PoppinsRegular"
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,500,0,0"
+                   Text="By pressing “I agree”, you agree to following
+                        our community guidelines and terms of services"/>
+            <Button Text="I agree"
+                    WidthRequest="300"
+                    BackgroundColor="#EDC151"
+                    FontFamily="PoppinsSemiBold"
+                    FontSize="20"
+                    Clicked="OnAgreeClicked"
+                    HeightRequest="50"
+                    Margin="0,440,0,0"/>
         </Grid>
     </VerticalStackLayout>
 </ContentPage>

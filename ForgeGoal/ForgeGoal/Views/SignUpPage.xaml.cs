@@ -6,9 +6,9 @@ public partial class SignUpPage : ContentPage
 	{
 		InitializeComponent();
 	}
-	private void OnTermsAndServicesTapped(object sender, EventArgs e)
+	private async void OnTermsAndServicesTapped(object sender, EventArgs e)
 	{
-		//TODO: ADD NAVIGATION TO SEND TO TERMS AND SERVICE VIEW
+		await Shell.Current.GoToAsync("TermsServicesPage");
 	}
 	private async void OnLoginTapped(object sender, EventArgs e)
 	{
