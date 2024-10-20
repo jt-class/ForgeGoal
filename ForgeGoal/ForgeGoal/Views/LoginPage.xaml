@@ -46,8 +46,7 @@
                 <Button Text="Login with Google"
                        BackgroundColor="White"
                        TextColor="Black"
-                       ImageSource="google_circle_icon.png"
-                       />
+                       ImageSource="google_circle_icon.png"/>
         </Grid>
         </VerticalStackLayout>
 </ContentPage>

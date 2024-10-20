@@ -1,65 +1,55 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:ForgeGoal.Views"
              x:Class="ForgeGoal.Views.HomePage"
              Title="HomePage">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
 
-        <ScrollView Grid.Row="0">
-            <VerticalStackLayout>
-                <Label 
-                    Text="Your Boards"
-                    FontSize="30"
-                    FontAttributes="Bold"
-                    HorizontalOptions="Center" 
-                    Margin="10,20"/>
-
-            </VerticalStackLayout>
-        </ScrollView>
-
-        <!-- Navigation Bar -->
-        <Grid
-            Grid.Row="1"
-            Margin="10">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-
-            <Frame
-                Grid.Column="0"
-                Margin="5"
-                BackgroundColor="#B21541"
-                Padding="10">
-                <Label
-                    Text="Home"
-                    HorizontalOptions="Center"/>
-            </Frame>
-
-            <Frame
-                Grid.Column="1"
-                Margin="5"
-                BackgroundColor="#B21541"
-                Padding="10">
-                <Label
-                    Text="Calendar"
-                    HorizontalOptions="Center"/>
-            </Frame>
-
-            <Frame
-                Grid.Column="2"
-                Margin="5"
-                BackgroundColor="#B21541"
-                Padding="10">
-                Text="Updates"
-                    HorizontalOptions="Center"/>
-            </Frame>
+    <AbsoluteLayout>
+        <Grid AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+            <!-- Background Image of the Page -->
+            <Image Source="gradient_bg" 
+                   Aspect="Fill" 
+                   HorizontalOptions="FillAndExpand"
+                   HeightRequest="780"/>
+            <!-- Header -->
+            <Grid VerticalOptions="Start">
+                <Image Source="header"
+                       Aspect="AspectFill"
+                       HorizontalOptions="FillAndExpand"
+                       HeightRequest="70"/>
+                <ImageButton Source="menu"
+                             HorizontalOptions="Start"
+                             Margin="10,0,0,0"
+                             Clicked="OnHamburgerClicked"/>
+                <ImageButton Source="Search"
+                             HorizontalOptions="End"
+                             Margin="0,0,10,0"/>
+            </Grid>
+            <!-- Board Content -->
+            <ScrollView Margin="0,60,0,0">
+                <VerticalStackLayout>
+                    <Label Text="Your Boards"
+                           FontSize="30"
+                           FontFamily="PoppinsSemiBold"
+                           HorizontalOptions="Start"
+                           FontAttributes="Bold"
+                           Margin="10, 20"/>
+                </VerticalStackLayout>
+            </ScrollView>
+            <!-- Floating Button -->
+            <Button Text="+"
+                    TextColor="Black"
+                    FontSize="45"
+                    CornerRadius="10"
+                    BackgroundColor="#CD5D33"
+                    WidthRequest="80"
+                    HeightRequest="80"
+                    HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Margin="30"/>
         </Grid>
-    </Grid>
+
+    </AbsoluteLayout>
 
 </ContentPage>

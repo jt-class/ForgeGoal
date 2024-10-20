@@ -4,17 +4,70 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:views="clr-namespace:ForgeGoal.Views"
-    Shell.FlyoutBehavior="Disabled"
+    Shell.FlyoutBehavior="Flyout"
     Title="ForgeGoal">
+    <!-- Will Fix later when i get my 5th cof-->
+    <Shell.FlyoutHeader>
+        <Grid BackgroundColor="#5B181A" Padding="20">
+            <Image BackgroundColor="#5B181A"
+                   HeightRequest="200"/>
+            <Image Source="profile_placeholder"
+                   HeightRequest="80"
+                   WidthRequest="80"
+                   Margin="0,0,0,20"/>
+            <Label Text="John Figma"
+                   TextColor="White"
+                   FontSize="20"
+                   FontFamily="PoppinsSemiBold"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Margin="0,90,0,0"/>
+            <Label Text="johnfigma@gmail.com"
+                   TextColor="White"
+                   FontSize="20"
+                   FontFamily="Poppins"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Margin="0,140,0,0"/>
+            <ImageButton Source="logout_button"
+                         HorizontalOptions="End"
+                         VerticalOptions="Start"
+                         Margin="0,20,20,0"/>
+            
+            
+        </Grid>
+    </Shell.FlyoutHeader>
+    <Shell.FlyoutContent>
+        <ScrollView>
+            <VerticalStackLayout>
+                <Grid>
+                    <Image BackgroundColor="#833033" HeightRequest="60"/>
+                    <BoxView HeightRequest="2" BackgroundColor="Black" Margin="0,0,0,0" VerticalOptions="Start"/>
+                    <Image Source="home_icon" VerticalOptions="Center" HorizontalOptions="Start" Margin="10,0,0,0" HeightRequest="40" WidthRequest="40"/>
+                    <Label Text="Dashboard" TextColor="White" FontFamily="PoppinsSemiBold" FontSize="25" VerticalOptions="Center" Margin="80,5,0,0"/>
+                    <Image Source="greater_icon" VerticalOptions="Center" HorizontalOptions="End" HeightRequest="20" WidthRequest="20" Margin="0,0,10,0"/>
+                    <BoxView HeightRequest="2" BackgroundColor="Black" Margin="0,0,0,0" VerticalOptions="End"/>
+                </Grid>
+                <Grid>
+                    <Image BackgroundColor="#833033" HeightRequest="60"/>
+                    <Image Source="settings_icon" VerticalOptions="Center" HorizontalOptions="Start" Margin="10,0,0,0" HeightRequest="40" WidthRequest="40"/>
+                    <Label Text="Account Settings" TextColor="White" FontFamily="PoppinsSemiBold" FontSize="25" VerticalOptions="Center" Margin="80,5,0,0"/>
+                    <Image Source="greater_icon" VerticalOptions="Center" HorizontalOptions="End" HeightRequest="20" WidthRequest="20" Margin="0,0,10,0"/>
+                    <BoxView HeightRequest="2" BackgroundColor="Black" Margin="0,0,0,0" VerticalOptions="End"/>
+                </Grid>
+                <Grid>
+                    <Image BackgroundColor="#833033" HeightRequest="750"/>
+                    
+                </Grid>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Shell.FlyoutContent>
 
     <ShellContent
         Title="Signup Page"
         ContentTemplate="{DataTemplate views:SignUpPage}"
-        Route="MainPage" />
-    <ShellContent
-        Title="Login Page"
-        ContentTemplate="{DataTemplate views:LoginPage}"/>
-    <ShellContent
-        Title="Terms of Services Page"
-        ContentTemplate="{DataTemplate views:TermsServicesPage}"/>
+        Route="MainPage" 
+        />
+    
 </Shell>
