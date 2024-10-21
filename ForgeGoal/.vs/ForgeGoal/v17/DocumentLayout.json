@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|c:\\users\\ahhor\\desktop\\jtfg\\forgegoal\\forgegoal\\forgegoal\\views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|c:\\users\\ahhor\\desktop\\jtfg\\forgegoal\\forgegoal\\forgegoal\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|c:\\users\\ahhor\\desktop\\jtfg\\forgegoal\\forgegoal\\forgegoal\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|c:\\users\\ahhor\\desktop\\jtfg\\forgegoal\\forgegoal\\forgegoal\\views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|solutionrelative:forgegoal\\views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE7409B7-3AC5-4ADF-8D54-5AB135714475}|ForgeGoal\\ForgeGoal.csproj|c:\\users\\ahhor\\desktop\\jtfg\\forgegoal\\forgegoal\\forgegoal\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -54,8 +54,7 @@
               "RelativeToolTip": "ForgeGoal\\Views\\HomePage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T03:57:56.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T03:57:56.485Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "ForgeGoal\\Views\\HomePage.xaml",
               "ViewState": "AQIAABwAAAAAAAAAAABBwCUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-22T09:19:49.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T09:19:49.329Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "ForgeGoal\\Views\\SignUpPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-26T12:38:55.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T12:38:55.063Z"
             },
             {
               "$type": "Document",
@@ -93,12 +90,11 @@
               "RelativeToolTip": "ForgeGoal\\Views\\LoginPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T02:36:35.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T02:36:35.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\AppShell.xaml",
               "RelativeDocumentMoniker": "ForgeGoal\\AppShell.xaml",
@@ -106,31 +102,29 @@
               "RelativeToolTip": "ForgeGoal\\AppShell.xaml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-26T12:40:39.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T12:40:39.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\MauiProgram.cs",
               "RelativeDocumentMoniker": "ForgeGoal\\MauiProgram.cs",
               "ToolTip": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\MauiProgram.cs",
               "RelativeToolTip": "ForgeGoal\\MauiProgram.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:39:44.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T12:39:44.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SignUpPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\Views\\SignUpPage.xaml.cs",
               "RelativeDocumentMoniker": "ForgeGoal\\Views\\SignUpPage.xaml.cs",
               "ToolTip": "C:\\Users\\ahhor\\Desktop\\JtFG\\ForgeGoal\\ForgeGoal\\ForgeGoal\\Views\\SignUpPage.xaml.cs",
               "RelativeToolTip": "ForgeGoal\\Views\\SignUpPage.xaml.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAIwBsAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T12:39:37.174Z",
               "EditorCaption": ""
