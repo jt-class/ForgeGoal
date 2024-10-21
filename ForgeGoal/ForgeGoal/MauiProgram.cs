@@ -1,4 +1,7 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Firebase.Auth;
+using Firebase.Auth.Providers;
+using Microsoft.Extensions.Logging;
+using ForgeGoal.Views;
 
 namespace ForgeGoal
 {
@@ -18,11 +21,21 @@ namespace ForgeGoal
                     fonts.AddFont("Poppins-SemiBold.ttf", "PoppinsSemiBold");
                     fonts.AddFont("Poppins-ExtraBold.ttf", "PoppinsExtraBold");
                 });
+           
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
+            builder.Services.AddSingleton(new FirebaseAuthClient(new FirebaseAuthConfig()
+            {
+                ApiKey = "AIzaSyDG3FiXskiktOGGNScyuEky67JXivw4HQU",
+                AuthDomain = "forgegoal-79cec.firebaseapp.com",
+                Providers = new FirebaseAuthProvider[] {
+                    new EmailProvider()
+                }
+            }));
 
+            builder.Services.AddSingleton<SignUpPage>();
             return builder.Build();
         }
     }
