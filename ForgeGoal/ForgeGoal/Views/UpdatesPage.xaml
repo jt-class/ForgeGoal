@@ -27,12 +27,28 @@
             <!-- Page Contents-->
             <ScrollView Margin="0,60,0,0">
                 <VerticalStackLayout>
-                    <Label Text="Notifications"
-                           FontSize="30"
-                           FontFamily="PoppinsSemiBold"
-                           HorizontalOptions="Start"
-                           FontAttributes="Bold"
-                           Margin="10, 20"/>
+                    
+                    <Grid>
+                        <Label Text="Notifications"
+                               FontSize="30"
+                               FontFamily="PoppinsSemiBold"
+                               HorizontalOptions="Start"
+                               FontAttributes="Bold"
+                               Margin="10, 30,0,0"/>
+                        <Image Source="picker_border"/>
+                        
+                        <Picker SelectedIndex="0"
+                                x:Name="NotificationPicker"
+                                ItemsSource="{Binding NotificationTypes}"
+                                HorizontalOptions="Start"
+                                Margin="10,80,0,0">
+
+                        </Picker>
+                    </Grid>
+                    
+                        
+                    
+                    
                 </VerticalStackLayout>
             </ScrollView>
             <!-- Footer -->

@@ -37,17 +37,7 @@
                            Margin="10, 20"/>
                 </VerticalStackLayout>
             </ScrollView>
-            <!-- Floating Button -->
-            <Button Text="+"
-                    TextColor="Black"
-                    FontSize="45"
-                    CornerRadius="10"
-                    BackgroundColor="#CD5D33"
-                    WidthRequest="80"
-                    HeightRequest="80"
-                    HorizontalOptions="End"
-                    VerticalOptions="End"
-                    Margin="0,0,20,150"/>
+            
             <!-- Footer -->
             <Frame BackgroundColor="#B21541"
                    HeightRequest="100"
@@ -121,6 +111,113 @@
                            FontFamily="Poppins"/>
                 </VerticalStackLayout>
             </Frame>
+            <!-- Window for creating a project -->
+            <Frame BackgroundColor="Black"
+                   Opacity="0.5"
+                   x:Name="BlackFrame">
+                
+            </Frame>
+            <!-- Floating Button -->
+            <Button Text="+"
+                    x:Name="AddButton"
+                    TextColor="Black"
+                    FontSize="45"
+                    CornerRadius="10"
+                    BackgroundColor="#CD5D33"
+                    WidthRequest="80"
+                    HeightRequest="80"
+                    HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Margin="0,0,20,150"
+                    Clicked="OnAddClicked"
+                    />
+            <Button ImageSource="mail_icon"
+                    x:Name="MailButton"
+                    BackgroundColor="#CD5D33"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Clicked="OnInviteClicked"
+                    Margin="0,0,35,300"/>
+            <Label Text="Join through invite code"
+                   x:Name="InviteLabel"
+                   TextColor="White"
+                   VerticalOptions="Center"
+                   HorizontalOptions="End"
+                   FontFamily="PoppinsSemiBold"
+                   FontSize="18"
+                   Margin="0,130,100,0"/>
+            <Button ImageSource="project_icon"
+                    x:Name="ProjectButton"
+                    BackgroundColor="#CD5D33"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Clicked="OnCreateClicked"
+                    Margin="0,0,35,240"/>
+            <Label Text="Create new Project"
+                   x:Name="ProjectLabel"
+                   TextColor="White"
+                   VerticalOptions="Center"
+                   HorizontalOptions="End"
+                   FontFamily="PoppinsSemiBold"
+                   FontSize="18"
+                   Margin="0,250,100,0"/>
+            
+            <!-- Create/Join new project-->
+            <Frame BackgroundColor="Black"
+                   Opacity="0.5"
+                   x:Name="BlackFrame2">
+            </Frame>
+            <Frame BackgroundColor="#F2C873"
+                   VerticalOptions="Center"
+                   HeightRequest="160"
+                   WidthRequest="350"
+                   x:Name="Frame2">
+                <Frame BackgroundColor="#FFE1AC"
+                       BorderColor="Transparent"
+                       HeightRequest="60"
+                       WidthRequest="280"
+                       HorizontalOptions="Start">
+                </Frame>
+            </Frame>
+            <Label Text="Insert Invite Code"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"
+                   FontFamily="PoppinsSemiBold"
+                   FontSize="20"
+                   Margin="42,0,0,100"
+                   x:Name="CreateLabel"/>
+            <ImageButton Source="rotatedplus_icon"
+                         VerticalOptions="Center"
+                         HorizontalOptions="End"
+                         HeightRequest="50"
+                         Margin="0,0,10,110"
+                         Clicked="OnCloseClicked"
+                         x:Name="CloseWindowButton"/>
+            <Entry Placeholder="Invite Code"
+                   FontFamily="PoppinsSemiBold"
+                   TextColor="Black"
+                   PlaceholderColor="#524F4F"
+                   Margin="50,0,0,0"
+                   WidthRequest="250"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Center"
+                   x:Name="ProjectEntry"/>
+            <BoxView x:Name="EntryLine" HeightRequest="1" BackgroundColor="#FFE1AC" Margin="50,27.5,0,0" VerticalOptions="Center" HorizontalOptions="Start" WidthRequest="250"/>
+            <Button Text="Join"
+                    x:Name="JoinCreateButton"
+                    TextColor="Black"
+                    FontFamily="PoppinsSemiBold"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="0,110,0,0"
+                    WidthRequest="100"
+                    CornerRadius="30"
+                    HeightRequest="40"
+                    BackgroundColor="#CD5D33"/>
         </Grid>
 
     </AbsoluteLayout>
