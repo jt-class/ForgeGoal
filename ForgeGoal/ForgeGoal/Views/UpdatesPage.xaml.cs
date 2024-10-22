@@ -1,11 +1,14 @@
+using ForgeGoal.Models;
+
 namespace ForgeGoal.Views;
 
 public partial class UpdatesPage : ContentPage
 {
-	public UpdatesPage()
+    public UpdatesPage()
 	{
 		InitializeComponent();
         Shell.SetNavBarIsVisible(this, false);
+        BindingContext = new ForgeGoal.Models.UpdatesModel();
     }
     private void OnHamburgerClicked(object sender, EventArgs e)
     {
