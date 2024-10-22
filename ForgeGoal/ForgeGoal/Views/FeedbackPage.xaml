@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ForgeGoal.Views.FeedbackPage"
+             Title="FeedbackPage"
+             BackgroundImageSource="gradient_bg.png">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+
+            <RowDefinition Height="Auto"/>
+
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid RowDefinitions="Auto" Padding="10" HeightRequest="60" Grid.Row="0">
+
+            <Image Source="header.png" Aspect="AspectFill" ZIndex="-1" WidthRequest="360" HeightRequest="64" Margin="-10"/>
+
+            <ImageButton Source="arrow.png" HorizontalOptions="Start" VerticalOptions="Center" HeightRequest="24" WidthRequest="24"/>
+
+            <Label Text="FeedBack" FontSize="25" FontFamily="Poppins-SemiBold" HorizontalOptions="Center"/>
+
+        </Grid>
+
+        <Grid RowDefinitions="Auto" Padding="30" HorizontalOptions="Center" Grid.Row="1">
+
+            <VerticalStackLayout>
+
+                <Label Text="Can you describe the issue?"
+                       FontSize="20"
+                       FontFamily="Poppins-Bold"
+                       HorizontalOptions="Center"/>
+
+                <Editor Placeholder="Tell us how we can improve our app"
+                        HeightRequest="176"
+                        WidthRequest="296"
+                        BackgroundColor="White"
+                        TextColor="Black"
+                        FontSize="16"
+                        FontFamily="OpenSans-Regular"
+                        />
+
+                <Button Text="Submit"
+                        FontSize="25"
+                        FontFamily="Poppins-SemiBold"
+                        BackgroundColor="#EDC151"
+                        TextColor="Black"
+                        WidthRequest="200"
+                        HeightRequest="48"
+                        Padding="0"
+                        Margin="23"/>
+
+            </VerticalStackLayout>
+            
+        </Grid>
+
+        <Grid RowDefinitions="Auto" ColumnDefinitions="*,*,*" Padding="30" Grid.Row="2" VerticalOptions="End" BackgroundColor="#B21541" HeightRequest="87">
+
+            <StackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="360" Margin="-10">
+
+                <ImageButton Source="home_icon.png" 
+                             WidthRequest="42" 
+                             HeightRequest="42" />
+
+                <Label Text="Home" 
+                       FontSize="14" 
+                       HorizontalOptions="Center" />
+
+            </StackLayout>
+
+            <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="360" Margin="-10">
+
+                <ImageButton Source="calendar_icon.png" 
+                             WidthRequest="42" 
+                             HeightRequest="42" />
+
+                <Label Text="Calendar" 
+                       FontSize="14" 
+                       HorizontalOptions="Center" />
+
+            </StackLayout>
+
+            <StackLayout Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="360" Margin="-10">
+
+                <ImageButton Source="updates_nav.png" 
+                             WidthRequest="42" 
+                             HeightRequest="42" />
+
+                <Label Text="Updates" 
+                       FontSize="14" 
+                       HorizontalOptions="Center" />
+
+            </StackLayout>
+
+
+        </Grid>
+
+    </Grid>
+    
+</ContentPage>

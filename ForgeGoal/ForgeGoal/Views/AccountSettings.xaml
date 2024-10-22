@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ForgeGoal.Views.AccountSettings"
+             Title="AccountSettings"
+             BackgroundImageSource="gradient_bg.png">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+
+            <RowDefinition Height="Auto"/>
+
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Top Bar -->
+        <Grid RowDefinitions="Auto" Padding="10" HeightRequest="60" Grid.Row="0">
+
+            <Image Source="header.png" Aspect="AspectFill" ZIndex="-1" WidthRequest="360" HeightRequest="64" Margin="-10"/>
+
+            <ImageButton Source="arrow.png" HorizontalOptions="Start" VerticalOptions="Center" HeightRequest="24" WidthRequest="24" />
+
+            <Image Source="logo.png" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </Grid>
+
+        <Grid RowDefinitions="Auto" Padding="30" HorizontalOptions="Center" Grid.Row="1">
+            <Image Source="profile_placeholder.png"
+                   WidthRequest="100" 
+                   HeightRequest="100" 
+                   Aspect="AspectFill"/>
+
+            <Image Source="camera.png" 
+                   WidthRequest="30" 
+                   HeightRequest="30" 
+                   HorizontalOptions="End" 
+                   VerticalOptions="End"/>
+        </Grid>
+
+        <VerticalStackLayout Grid.Row="2" Padding="20">
+            
+            <HorizontalStackLayout Spacing="10" Margin="5" BackgroundColor="#FC6A6F" WidthRequest="352" HeightRequest="42.12">
+
+                <Label Text="Name:"
+                       FontSize="14"
+                       FontFamily="OpenSans-Regular"
+                       VerticalOptions="Center"
+                       Padding="5"/>
+
+                <Entry FontSize="18"
+                       VerticalOptions="Center" 
+                       WidthRequest="288"/>
+
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10" Margin="5" BackgroundColor="#FC6A6F" WidthRequest="352" HeightRequest="42.12">
+
+                <Label Text="Age:"
+                       FontSize="14"
+                       FontFamily="OpenSans-Regular"
+                       VerticalOptions="Center"
+                       Padding="5"/>
+
+                <Entry FontSize="18"
+                       VerticalOptions="Center" 
+                       WidthRequest="288"/> 
+
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10" Margin="5" BackgroundColor="#FC6A6F" WidthRequest="352" HeightRequest="42.12">
+
+                <Label Text="Gender:"
+                       FontSize="14"
+                       FontFamily="OpenSans-Regular"
+                       VerticalOptions="Center"
+                       Padding="5"/>
+
+                <Entry FontSize="18"
+                       VerticalOptions="Center" 
+                       WidthRequest="288"/>
+
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10" Margin="5" BackgroundColor="#FC6A6F" WidthRequest="352" HeightRequest="42.12">
+
+                <Label Text="About Me:"
+                       FontSize="14"
+                       FontFamily="OpenSans-Regular"
+                       VerticalOptions="Center"
+                       Padding="5"/>
+    
+                <Entry FontSize="18"
+                       VerticalOptions="Center" 
+                       WidthRequest="288"/>
+
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10" Margin="5" BackgroundColor="#FC6A6F" WidthRequest="352" HeightRequest="42.12">
+
+                <Label Text="Email:"
+                       FontSize="14"
+                       FontFamily="OpenSans-Regular"
+                       VerticalOptions="Center"
+                       Padding="5"/>
+
+                <Entry FontSize="18"
+                       VerticalOptions="Center" 
+                       WidthRequest="223"/>
+
+                <Label Text="Remove"
+                       FontSize="14"
+                       FontFamily="OpenSans-Regular"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+
+            <Label Text="Language"
+                   FontSize="14"
+                   FontFamily="OpenSans-Regular"
+                   Padding="5"/>
+
+            <SearchBar Placeholder="English"
+                       WidthRequest="289"
+                       HeightRequest="52"/>
+
+        </VerticalStackLayout>
+            
+
+        <Grid RowDefinitions="Auto" ColumnDefinitions="*,*,*" Padding="30" Grid.Row="2" VerticalOptions="End" BackgroundColor="#B21541" HeightRequest="87">
+
+            <StackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="360" Margin="-10">
+
+                <ImageButton Source="home_icon.png" 
+               WidthRequest="42" 
+               HeightRequest="42" />
+
+                <Label Text="Home" 
+               FontSize="14" 
+               HorizontalOptions="Center" />
+
+            </StackLayout>
+
+            <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="360" Margin="-10">
+
+                <ImageButton Source="calendar_icon.png" 
+               WidthRequest="42" 
+               HeightRequest="42" />
+
+                <Label Text="Calendar" 
+               FontSize="14" 
+               HorizontalOptions="Center" />
+
+            </StackLayout>
+
+            <StackLayout Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="360" Margin="-10">
+
+                <ImageButton Source="updates_nav.png" 
+               WidthRequest="42" 
+               HeightRequest="42" />
+
+                <Label Text="Updates" 
+               FontSize="14" 
+               HorizontalOptions="Center" />
+
+            </StackLayout>
+
+
+        </Grid>
+
+    </Grid>
+    
+
+</ContentPage>

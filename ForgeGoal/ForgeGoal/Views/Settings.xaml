@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ForgeGoal.Views.Settings"
+             Title="Settings"
+             BackgroundImageSource="gradient_bg.png">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+
+            <RowDefinition Height="Auto"/>
+
+            <RowDefinition Height="*"/>
+            
+        </Grid.RowDefinitions>
+
+        <!-- Top Bar -->
+        <Grid RowDefinitions="Auto" Padding="10" HeightRequest="60" Grid.Row="0">
+
+            <Image Source="header.png" Aspect="AspectFill" ZIndex="-1" WidthRequest="360" HeightRequest="64" Margin="-10"/>
+
+            <ImageButton Source="arrow.png" HorizontalOptions="Start" VerticalOptions="Center" HeightRequest="24" WidthRequest="24"/>
+
+            <Image Source="logo.png" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </Grid>
+
+        <Grid RowDefinitions="Auto" Padding="30" HorizontalOptions="Center" Grid.Row="1">
+            <Image Source="profile_placeholder.png"
+                   WidthRequest="100" 
+                   HeightRequest="100" 
+                   Aspect="AspectFill" 
+                   Clip="Ellipse" />
+            
+            <Image Source="camera.png" 
+                   WidthRequest="30" 
+                   HeightRequest="30" 
+                   HorizontalOptions="End" 
+                   VerticalOptions="End" />
+        </Grid>
+
+        <VerticalStackLayout Grid.Row="2" Padding="20">
+
+            <!-- Notification Section -->
+            <HorizontalStackLayout Spacing="10" Margin="5" BackgroundColor="#FC6A6F" WidthRequest="352" HeightRequest="42.12">
+
+                <Image Source="notification_icon.png" 
+                       WidthRequest="30"
+                       HeightRequest="30"
+                       Margin="15"/>
+
+                <Label Text="Notification"
+                       FontSize="25"
+                       FontFamily="Poppins-SemiBold"
+                       VerticalOptions="Center"/>
+
+                <Switch IsToggled="true" 
+                        HorizontalOptions="EndAndExpand"
+                        WidthRequest="52"
+                        HeightRequest="32"/>
+                
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10" Margin="5" BackgroundColor="#FC6A6F" WidthRequest="352" HeightRequest="42.12">
+
+                <Image Source="invite_icon.png" 
+                       WidthRequest="30"
+                       HeightRequest="30"
+                       Margin="15"/>
+
+                <Label Text="Invite"
+                       FontSize="25"
+                       FontFamily="Poppins-SemiBold"
+                       VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10" Margin="5" BackgroundColor="#FC6A6F" WidthRequest="352" HeightRequest="42.12">
+
+                <Image Source="share_icon.png" 
+                       WidthRequest="30"
+                       HeightRequest="30"
+                       Margin="15"/>
+
+                <Label Text="Share"
+                       FontSize="25"
+                       FontFamily="Poppins-SemiBold"
+                       VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10" Margin="5" BackgroundColor="#FC6A6F" WidthRequest="352" HeightRequest="42.12">
+
+                <Image Source="feedback_icon.png" 
+                       WidthRequest="30"
+                       HeightRequest="30"
+                       Margin="15"/>
+
+                <Label Text="Feedback"
+                       FontSize="25"
+                       FontFamily="Poppins-SemiBold"
+                       VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10" Margin="5" BackgroundColor="#FC6A6F" WidthRequest="352" HeightRequest="42.12">
+
+                <Image Source="account_icon.png" 
+                       WidthRequest="30"
+                       HeightRequest="30"
+                       Margin="15"/>
+
+                <Label Text="Account"
+                       FontSize="25"
+                       FontFamily="Poppins-SemiBold"
+                       VerticalOptions="Center"/>   
+
+            </HorizontalStackLayout>
+
+            <!-- Logout Button -->
+            <Button Text="Log out" 
+                    FontSize="25"
+                    FontFamily="Poppins-SemiBold"
+                    TextColor="Black"
+                    BackgroundColor="#EDC151" 
+                    WidthRequest="310"
+                    HeightRequest="48"
+                    Padding="0"
+                    Margin="15"
+                    CornerRadius="24"/>
+        </VerticalStackLayout>
+
+        <Grid RowDefinitions="Auto" ColumnDefinitions="*,*,*" Padding="30" Grid.Row="2" VerticalOptions="End" BackgroundColor="#B21541" HeightRequest="87">
+
+            <StackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="360" Margin="-10">
+                
+                <ImageButton Source="home_icon.png" 
+                       WidthRequest="42" 
+                       HeightRequest="42" />
+                
+                <Label Text="Home" 
+                       FontSize="14" 
+                       HorizontalOptions="Center" />
+                
+            </StackLayout>
+
+            <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="360" Margin="-10">
+
+                <ImageButton Source="calendar_icon.png" 
+                       WidthRequest="42" 
+                       HeightRequest="42" />
+
+                <Label Text="Calendar" 
+                       FontSize="14" 
+                       HorizontalOptions="Center" />
+
+            </StackLayout>
+
+            <StackLayout Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="360" Margin="-10">
+
+                <ImageButton Source="updates_nav.png" 
+                       WidthRequest="42" 
+                       HeightRequest="42" />
+
+                <Label Text="Updates" 
+                       FontSize="14" 
+                       HorizontalOptions="Center" />
+
+            </StackLayout>
+
+
+        </Grid>
+
+    </Grid>
+
+</ContentPage>
