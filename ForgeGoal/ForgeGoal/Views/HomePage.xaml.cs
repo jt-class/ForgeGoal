@@ -13,4 +13,13 @@ public partial class HomePage : ContentPage
 	{
         Shell.Current.FlyoutIsPresented = !Shell.Current.FlyoutIsPresented;
     }
+
+	private async void OnCalendarTapped(object sender, EventArgs e)
+	{
+        await Shell.Current.GoToAsync("CalendarPage");
+    }
+	private async void OnUpdatesTapped(object sender, EventArgs e)
+	{
+        await Shell.Current.GoToAsync("UpdatesPage");
+    }
 }

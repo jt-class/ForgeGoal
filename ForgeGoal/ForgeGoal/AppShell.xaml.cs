@@ -12,6 +12,8 @@ namespace ForgeGoal
             Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
             Routing.RegisterRoute(nameof(TermsServicesPage), typeof(TermsServicesPage));
             Routing.RegisterRoute(nameof(HomePage), typeof(HomePage));
+            Routing.RegisterRoute(nameof(UpdatesPage), typeof(UpdatesPage));
+            Routing.RegisterRoute(nameof(CalendarPage), typeof(CalendarPage));
         }
     }
 }

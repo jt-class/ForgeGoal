@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:views="clr-namespace:ForgeGoal.Views"
-             x:Class="ForgeGoal.Views.HomePage"
-             Title="HomePage">
-
+             x:Class="ForgeGoal.Views.CalendarPage"
+             Title="CalendarPage">
     <AbsoluteLayout>
         <Grid AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
             <!-- Background Image of the Page -->
@@ -26,10 +24,10 @@
                              HorizontalOptions="End"
                              Margin="0,0,10,0"/>
             </Grid>
-            <!-- Board Content -->
+            <!-- Page Contents-->
             <ScrollView Margin="0,60,0,0">
                 <VerticalStackLayout>
-                    <Label Text="Your Boards"
+                    <Label Text="Calendar"
                            FontSize="30"
                            FontFamily="PoppinsSemiBold"
                            HorizontalOptions="Start"
@@ -37,24 +35,14 @@
                            Margin="10, 20"/>
                 </VerticalStackLayout>
             </ScrollView>
-            <!-- Floating Button -->
-            <Button Text="+"
-                    TextColor="Black"
-                    FontSize="45"
-                    CornerRadius="10"
-                    BackgroundColor="#CD5D33"
-                    WidthRequest="80"
-                    HeightRequest="80"
-                    HorizontalOptions="End"
-                    VerticalOptions="End"
-                    Margin="0,0,20,150"/>
             <!-- Footer -->
+
             <Frame BackgroundColor="#B21541"
-                   HeightRequest="100"
-                   VerticalOptions="End">
+       HeightRequest="100"
+       VerticalOptions="End">
             </Frame>
             <!-- Footer Buttons-->
-            
+
             <!-- Home Button -->
             <Frame BackgroundColor="Transparent"
                    VerticalOptions="End"
@@ -64,6 +52,7 @@
                    BorderColor="Transparent">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer
+                        Tapped="OnHomeTapped"
                         NumberOfTapsRequired="1"/>
                 </Frame.GestureRecognizers>
                 <VerticalStackLayout>
@@ -73,7 +62,6 @@
                            VerticalOptions="Center"
                            HorizontalOptions="Center"
                            Margin="0,0,0,0"
-                           TextColor="White"
                            FontFamily="Poppins"/>
                 </VerticalStackLayout>
             </Frame>
@@ -86,7 +74,6 @@
                    BorderColor="Transparent">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer
-                        Tapped="OnCalendarTapped"
                         NumberOfTapsRequired="1"/>
                 </Frame.GestureRecognizers>
                 <VerticalStackLayout>
@@ -96,6 +83,7 @@
                            VerticalOptions="Center"
                            HorizontalOptions="Center"
                            Margin="0,0,0,0"
+                           TextColor="White"
                            FontFamily="Poppins"/>
                 </VerticalStackLayout>
             </Frame>
@@ -122,7 +110,5 @@
                 </VerticalStackLayout>
             </Frame>
         </Grid>
-
     </AbsoluteLayout>
-
 </ContentPage>
