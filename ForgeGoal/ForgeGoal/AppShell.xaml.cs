@@ -17,7 +17,7 @@ namespace ForgeGoal
         }
         private async void OnDashboardTapped(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("HomePage");
+            await Shell.Current.GoToAsync("//HomePage");
             Shell.Current.FlyoutIsPresented = false;
 
         }

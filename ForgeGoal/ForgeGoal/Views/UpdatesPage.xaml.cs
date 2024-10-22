@@ -14,10 +14,10 @@ public partial class UpdatesPage : ContentPage
 
     private async void OnCalendarTapped(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("CalendarPage");
+        await Shell.Current.GoToAsync("//CalendarPage");
     }
     private async void OnHomeTapped(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("HomePage");
+        await Shell.Current.GoToAsync("//HomePage");
     }
 }

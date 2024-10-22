@@ -78,7 +78,28 @@
     <ShellContent
         Title="Signup Page"
         ContentTemplate="{DataTemplate views:SignUpPage}"
-        Route="MainPage" 
+        Route="SignUpPage" 
         />
+    <ShellContent
+        Title="Login Page"
+        ContentTemplate="{DataTemplate views:LoginPage}" 
+        Route="LoginPage"
+        />
+    <ShellContent
+        Title="Home Page"
+        ContentTemplate="{DataTemplate views:HomePage}" 
+        Route="HomePage"
+        />
+    <ShellContent
+        Title="Calendar Page"
+        ContentTemplate="{DataTemplate views:CalendarPage}" 
+        Route="CalendarPage"
+        />
+    <ShellContent
+        Title="Updates Page"
+        ContentTemplate="{DataTemplate views:UpdatesPage}" 
+        Route="UpdatesPage"
+        />
+
     
 </Shell>

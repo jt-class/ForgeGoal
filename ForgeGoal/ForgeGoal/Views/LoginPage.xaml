@@ -5,48 +5,117 @@
              Title="LoginPage"
              BackgroundImageSource="gradient_bg.png">
 
-        <VerticalStackLayout>
-            <Grid>
-                <Image Source="gradient_bg2" 
-                       Aspect="Fill" 
-                       HorizontalOptions="FillAndExpand"
-                       HeightRequest="780"/>
+    <VerticalStackLayout>
+        <Grid>
+            <Image Source="gradient_bg2" 
+                   Aspect="Fill" 
+                   HorizontalOptions="FillAndExpand"
+                   HeightRequest="780"/>
 
-                <Label FontSize="29" 
-                       Text="Welcome back!&#10;Continue forging your path to success!"
+            <VerticalStackLayout>
+                <Label FontSize="29"     
+                       Text="Welcome back!&#10;Continue forging&#10;your path to success!"
                        TextColor="White"
                        HorizontalOptions="Center"
                        HorizontalTextAlignment="Center"
                        FontFamily="PoppinsRegular"
-                       Padding="0,30,0,10"
+                       Margin="0,40,0,0"    
                        LineHeight="1.2"/>
-                
-                <Label Text="Log in"
-                       FontSize="36"
-                       TextColor="White"
-                       HorizontalOptions="Center"/>
-                
-                <Entry Placeholder="Email"
-                       TextColor="White"
-                       PlaceholderColor="White"
-                       BackgroundColor="Transparent" />
-                
-                <Entry Placeholder="Password"
-                       IsPassword="True"
-                       TextColor="White"
-                       PlaceholderColor="White"
-                       BackgroundColor="Transparent" />
-                
-                <Button Text="Log in"
-                       BackgroundColor="#FFD700"
-                       TextColor="White"
-                       CornerRadius="30"
-                       WidthRequest="200" />
 
-                <Button Text="Login with Google"
-                       BackgroundColor="White"
-                       TextColor="Black"
-                       ImageSource="google_circle_icon.png"/>
+                <Label Text="Log in"            
+                       FontSize="36"               
+                       TextColor="White"                 
+                       Margin="0,50,0,0"                  
+                       FontFamily="PoppinsSemiBold"                     
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Grid>
+                    <Entry Placeholder="Email"
+                           x:Name="emailEntry"
+                           TextColor="White"
+                           WidthRequest="300"
+                           FontFamily="Poppins"
+                           PlaceholderColor="White"
+                           BackgroundColor="Transparent" />
+                    <BoxView HeightRequest="1" BackgroundColor="White" Margin="0,0,0,7.5" VerticalOptions="End" WidthRequest="300"/>
+                </Grid>
+                <Grid Margin="0,5,0,0">
+                    <Entry Placeholder="Password"
+                           IsPassword="True"
+                           TextColor="White"
+                           PlaceholderColor="White"
+                           WidthRequest="300"
+                           FontFamily="Poppins"
+                           BackgroundColor="Transparent" />
+                    <BoxView HeightRequest="1" BackgroundColor="White" Margin="0,0,0,8" VerticalOptions="End" WidthRequest="300"/>
+                </Grid>
+                <HorizontalStackLayout Margin="0,10,0,0">
+                    <CheckBox Color="White"
+                              Margin="33,0,0,0"/>
+                    <Label Text="Remember me"
+                           TextColor="White"
+                           FontFamily="Poppins"
+                           Margin="-5,11,0,0"/>
+                    <Label Text="Forgot Password?"
+                           TextColor="#EEB521"
+                           HorizontalOptions="End"
+                           VerticalOptions="Center"
+                           FontFamily="Poppins"
+                           Margin="80,0,0,0">
+                        <Label.GestureRecognizers>
+                            <!-- TODO: Add Tap Function or the Forgot Password page-->
+                        </Label.GestureRecognizers>
+                    </Label>
+                </HorizontalStackLayout>
+                <Button Text="Log in"
+                        FontFamily="PoppinsSemiBold"
+                        FontSize="20"
+                        BackgroundColor="#EDC151"
+                        TextColor="White"
+                        CornerRadius="30"
+                        Margin="0,30,0,0"
+                        WidthRequest="320" />
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Label Text="New to forge?"
+                           VerticalOptions="Center"
+                           FontSize="15"
+                           FontFamily="Poppins"
+                           TextColor="White"
+                           Margin="0,20,0,0"/>
+                    <Label Text="Sign up!"
+                           TextColor="#EEB521"
+                           FontSize="15"
+                           FontFamily="Poppins"
+                           Margin="10,20,0,0">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSignUpTapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center" Margin="0,10,0,0">
+                    <BoxView HeightRequest="1" BackgroundColor="White" Margin="0,0,0,0" VerticalOptions="Center" WidthRequest="180"/>
+                    <Label Text="Or"
+                           TextColor="White"
+                           FontFamily="Poppins"
+                           HorizontalOptions="Center"
+                           Margin="10,0,10,0"/>
+                    <BoxView HeightRequest="1" BackgroundColor="White" Margin="0,0,0,0" VerticalOptions="Center" WidthRequest="250"/>
+                </HorizontalStackLayout>
+                <Grid Margin="0,20,0,0">
+                    <Button Text="Login with Google"
+                            BackgroundColor="White"
+                            TextColor="#6D6D6D"
+                            FontSize="15"
+                            FontFamily="PoppinsSemiBold"
+                            HeightRequest="60"
+                            WidthRequest="320"
+                            CornerRadius="30"/>
+                    <Image Source="google_circle_icon"
+                           BackgroundColor="Transparent"
+                           HorizontalOptions="Start"
+                           Margin="50,0,0,0"/>
+                </Grid>
+            </VerticalStackLayout>
         </Grid>
-        </VerticalStackLayout>
+    </VerticalStackLayout>
 </ContentPage>
