@@ -15,5 +15,11 @@ namespace ForgeGoal
             Routing.RegisterRoute(nameof(UpdatesPage), typeof(UpdatesPage));
             Routing.RegisterRoute(nameof(CalendarPage), typeof(CalendarPage));
         }
+        private async void OnDashboardTapped(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("HomePage");
+            Shell.Current.FlyoutIsPresented = false;
+
+        }
     }
 }

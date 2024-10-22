@@ -41,13 +41,24 @@
     <Shell.FlyoutContent>
         <ScrollView>
             <VerticalStackLayout>
+                
                 <Grid>
+                    
                     <Image BackgroundColor="#833033" HeightRequest="60"/>
                     <BoxView HeightRequest="2" BackgroundColor="Black" Margin="0,0,0,0" VerticalOptions="Start"/>
                     <Image Source="home_icon" VerticalOptions="Center" HorizontalOptions="Start" Margin="10,0,0,0" HeightRequest="40" WidthRequest="40"/>
                     <Label Text="Dashboard" TextColor="White" FontFamily="PoppinsSemiBold" FontSize="25" VerticalOptions="Center" Margin="80,5,0,0"/>
                     <Image Source="greater_icon" VerticalOptions="Center" HorizontalOptions="End" HeightRequest="20" WidthRequest="20" Margin="0,0,10,0"/>
                     <BoxView HeightRequest="2" BackgroundColor="Black" Margin="0,0,0,0" VerticalOptions="End"/>
+                    <Frame BackgroundColor="Transparent" 
+                           BorderColor="Transparent"
+                           HeightRequest="50">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Tapped="OnDashboardTapped"
+                                NumberOfTapsRequired="1"/>
+                        </Frame.GestureRecognizers>
+                    </Frame>
                 </Grid>
                 <Grid>
                     <Image BackgroundColor="#833033" HeightRequest="60"/>
